@@ -11,7 +11,7 @@ const Home = () => {
                 <h2 className='text-4xl sm:text-6xl font-bold text-[#d2d2d2]'>I'm Full Stack Web Developer<span className='text-[#ef913e]'>.</span></h2>
                 <p className='text-white py-4 max-w-[700px]'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim doloremque obcaecati perspiciatis, corporis accusamus ex. Esse voluptatum a vitae temporibus ab beatae blanditiis reprehenderit. Placeat velit libero quae earum atque?</p>
                 <div>
-                    <button className='text-[#ef913e] group border-2 border-[#ef913e] px-6 py-3 my-2 flex items-center hover:bg-[#ef913e] hover:text-white duration-300'> 
+                    <button className=' bg-[#102649] text-[#ef913e] group border-2 border-[#ef913e] px-6 py-3 my-2 flex items-center hover:bg-[#ef913e] hover:text-white duration-300'> 
                     View Work
                     <span className='group-hover:rotate-90 duration-300'> <HiArrowNarrowRight className='ml-3' /> </span>
                     </button>

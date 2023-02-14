@@ -31,7 +31,7 @@ const Navbar = () => {
       </div>
       {/* MOBILE MENU */}
       <ul className={!nav ? 'hidden' : 'absolute top-0 left-0 w-full h-screen bg-[#112b51] flex flex-col justify-center items-center'}>
-        <li className='py-6 text-3xl hover:text-[] duration-300'>Home</li>
+        <li className='py-6 text-3xl hover:text-[#ef913e] duration-300'>Home</li>
         <li className='py-6 text-3xl hover:text-[#ef913e] duration-300'>Skills</li>
         <li className='py-6 text-3xl hover:text-[#ef913e] duration-300'>Work</li>
         <li className='py-6 text-3xl hover:text-[#ef913e] duration-300'>Contact</li>
