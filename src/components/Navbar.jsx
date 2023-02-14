@@ -3,6 +3,7 @@ import Logo from '../assets/LOGO2.png'
 import { FaBars, FaTimes, FaGithub, FaLinkedin, FaInstagram } from 'react-icons/fa'
 import {HiOutlineMail} from 'react-icons/hi'
 import {BsFillPersonLinesFill} from 'react-icons/bs'
+import {Link} from 'react-scroll'
 
 const Navbar = () => {
 
@@ -19,10 +20,26 @@ const Navbar = () => {
 
       {/* MENU */}
       <ul className='hidden md:flex'>
-        <li className='hover:text-[#ef913e] duration-300'>Home</li>
-        <li className='hover:text-[#ef913e] duration-300'>Skills</li>
-        <li className='hover:text-[#ef913e] duration-300'>Work</li>
-        <li className='hover:text-[#ef913e] duration-300'>Contact</li>
+        <li className='hover:text-[#ef913e] duration-300'>
+          <Link to="home" smooth={true}  duration={500} >
+            Home
+          </Link>
+        </li>
+        <li className='hover:text-[#ef913e] duration-300'>
+          <Link to="skills" smooth={true} duration={500} >
+            Skills
+          </Link>
+        </li>
+        <li className='hover:text-[#ef913e] duration-300'>
+          <Link to="work" smooth={true} duration={500} >
+            Work
+          </Link>
+        </li>
+        <li className='hover:text-[#ef913e] duration-300'>
+          <Link to="contact" smooth={true} duration={500} >
+            Contact
+          </Link>
+        </li>
       </ul>
 
       {/* HAMBURGER MENU */}
@@ -31,10 +48,26 @@ const Navbar = () => {
       </div>
       {/* MOBILE MENU */}
       <ul className={!nav ? 'hidden' : 'absolute top-0 left-0 w-full h-screen bg-[#112b51] flex flex-col justify-center items-center'}>
-        <li className='py-6 text-3xl hover:text-[#ef913e] duration-300'>Home</li>
-        <li className='py-6 text-3xl hover:text-[#ef913e] duration-300'>Skills</li>
-        <li className='py-6 text-3xl hover:text-[#ef913e] duration-300'>Work</li>
-        <li className='py-6 text-3xl hover:text-[#ef913e] duration-300'>Contact</li>
+        <li className='py-6 text-3xl hover:text-[#ef913e] duration-300'>
+          <Link onClick={handleClick} to="home" smooth={true} duration={500} >
+            Home
+          </Link>
+        </li>
+        <li className='py-6 text-3xl hover:text-[#ef913e] duration-300'>
+          <Link onClick={handleClick} to="skills" smooth={true} duration={500} >
+            Skills
+          </Link>
+        </li>
+        <li className='py-6 text-3xl hover:text-[#ef913e] duration-300'>
+          <Link onClick={handleClick} to="work" smooth={true} duration={500} >
+            Work
+          </Link>
+        </li>
+        <li className='py-6 text-3xl hover:text-[#ef913e] duration-300'>
+          <Link onClick={handleClick} to="contact" smooth={true} duration={500} >
+            Contact
+          </Link>
+        </li>
       </ul>
 
       {/* SOCIAL ICONS */}
@@ -66,7 +99,7 @@ const Navbar = () => {
           </li>
           {/* instagram */}
           <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-gradient-to-tl from-indigo-600 via-red-400 to-yellow-400'>
-            <a className='flex justify-between items-center w-full text-white' target='blank' href="https://www.instagram.com/">
+            <a className='flex justify-between items-center w-full text-white' target='blank' href="https://www.instagram.com/ffran.acosta/">
               Instagram <FaInstagram size={30}/>
             </a>
           </li>
