@@ -15,13 +15,13 @@ export const data = [
         github: 'https://github.com/ffran-acosta/oxigeno',
         link: ''
     },
-    {
-        id: 2,
-        name: 'Ruth Sager',
-        image: '',
-        github: '',
-        link: ''
-    },
+    // {
+    //     id: 2,
+    //     name: 'Project',
+    //     image: '',
+    //     github: '',
+    //     link: ''
+    // },
     {
         id: 3,
         name: 'Cart Example',

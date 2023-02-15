@@ -11,9 +11,9 @@ import Express  from '../assets/skills/expressjs2.png'
 import Mongo from '../assets/skills/mongodb.png'
 import Postgres from '../assets/skills/postgres.png'
 import TypeScript from '../assets/skills/typescript.png'
-import Tailwind from '../assets/skills/tailwind.png'
-import Python from '../assets/skills/python.png'
-import VSC from '../assets/skills/visualstudiocode.png' 
+// import Tailwind from '../assets/skills/tailwind.png'
+// import Python from '../assets/skills/python.png'
+// import VSC from '../assets/skills/visualstudiocode.png' 
 
 
 const Skills = () => {
