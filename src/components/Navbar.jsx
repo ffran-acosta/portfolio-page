@@ -9,8 +9,6 @@ const Navbar = () => {
 
   const [nav, setNav] = useState(false)
   const handleClick = () => setNav(!nav)
-  const CV_URL = process.env.REACT_APP_CV_URL
-
   
 
   return (
@@ -41,7 +39,7 @@ const Navbar = () => {
           </Link>
         </li>
         <li className='lg:hidden'>
-          <a className='hover:text-[#ef913e] duration-300' href={`http://localhost:3000/CV-FRANCO-ACOSTA.pdf` || CV_URL} download='CV.Franco.Acosta.pdf'>
+          <a className='hover:text-[#ef913e] duration-300' href={process.env.REACT_APP_CVURL || `http://localhost:3000/CV-FRANCO-ACOSTA.pdf`} download='CV-FRANCO-ACOSTA.pdf'>
             Resume
           </a>
         </li>
