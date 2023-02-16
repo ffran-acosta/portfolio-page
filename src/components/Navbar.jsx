@@ -39,7 +39,7 @@ const Navbar = () => {
           </Link>
         </li>
         <li className='lg:hidden'>
-          <a className='hover:text-[#ef913e] duration-300' href={`https://ffran-acosta.up.railway.app//CV-FRANCO-ACOSTA.pdf`} download='CV-FRANCO-ACOSTA.pdf'>
+          <a className='hover:text-[#ef913e] duration-300' href={process.env.REACT_APP_CVURL || `http://localhost:3000/CV-FRANCO-ACOSTA.pdf`} download='CV-FRANCO-ACOSTA.pdf'>
             Resume
           </a>
         </li>
@@ -72,7 +72,7 @@ const Navbar = () => {
           </Link>
         </li>
         <li className='py-6 '>
-          <a className='text-3xl hover:text-[#ef913e] duration-300' href="https://ffran-acosta.up.railway.app/CV-FRANCO-ACOSTA.pdf" download='CV-FRANCO-ACOSTA.pdf'>
+          <a className='text-3xl hover:text-[#ef913e] duration-300' href={process.env.REACT_APP_CVURL || `http://localhost:3000/CV-FRANCO-ACOSTA.pdf`} download='CV-FRANCO-ACOSTA.pdf'>
             Resume
           </a>
         </li>
@@ -118,7 +118,7 @@ const Navbar = () => {
           </li> */}
           {/* resume */}
           <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#ef913e]'>
-            <a className='flex justify-between items-center w-full text-white' href="https://ffran-acosta.up.railway.app/CV-FRANCO-ACOSTA.pdf" download='CV-FRANCO-ACOSTA.pdf'>
+            <a className='flex justify-between items-center w-full text-white' href={process.env.REACT_APP_CVURL || `http://localhost:3000/CV-FRANCO-ACOSTA.pdf`} download='CV-FRANCO-ACOSTA.pdf'>
               Resume <BsFillPersonLinesFill size={30} />
             </a>
           </li>

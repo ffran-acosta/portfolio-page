@@ -29,7 +29,7 @@ export const data = [
         image: CartImg,
         description: 'NodeJS - ExpressJS - JS - EJS- CSS - PostgresSQL - Mercado Pago API',
         github: 'https://github.com/ffran-acosta/cart-local-storage',
-        link: 'https://cart-client-production.up.railway.app/products'
+        link: 'https://cart-client.up.railway.app/products'
     },
     {
         id: 4,
@@ -45,7 +45,7 @@ export const data = [
         image: WeatherImg,
         description: 'NodeJS - ExpressJS - EJS - CSS - JS - Open Weather and Unsplash APIs',
         github: 'https://github.com/ffran-acosta/weather-app',
-        link: 'https://weather-app-production-9a77.up.railway.app/weather'
+        link: 'https://weather-app-23.up.railway.app/weather'
     },
     {
         id: 6,
