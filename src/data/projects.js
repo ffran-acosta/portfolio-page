@@ -45,7 +45,7 @@ export const data = [
         image: WeatherImg,
         description: 'NodeJS - ExpressJS - EJS - CSS - JS - Open Weather and Unsplash APIs',
         github: 'https://github.com/ffran-acosta/weather-app',
-        link: ''
+        link: 'https://weather-app-production-9a77.up.railway.app/weather'
     },
     {
         id: 6,
