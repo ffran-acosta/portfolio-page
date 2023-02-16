@@ -24,13 +24,14 @@ const Work = () => {
 
                         {/* hover effects */}
                         <div className='opacity-0 group-hover:opacity-100'>
-                            <span className='text-2xl font-bold text-qhite tracking-wider'>
+                            <span className='flex w-full justify-center text-2xl font-bold text-qhite tracking-wider'>
                                 {item.name}
                             </span>
+                            <span className='flex text-sm mx-1 text-center'>{item.description}</span>
                             <div className='pt8 text-center'>
-                                {/* <a href="/">
+                                <a href={item.link} target="blank">
                                     <button className='text-center rounded-lg px-4 py-3 m-2 bg-[#ef913e] font-bold text-lg'>Demo</button>
-                                </a> */}
+                                </a>
 
                                 <a href={item.github} target="blank">
                                     <button className='text-center rounded-lg px-4 py-3 m-2 bg-[#ef913e] font-bold text-lg'>Code</button>
