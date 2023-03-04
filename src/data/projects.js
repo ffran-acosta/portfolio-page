@@ -1,33 +1,27 @@
 import OxigenImg from '../assets/projects/oxigeno-img.png'
-import CartImg from '../assets/projects/cart-example-img.png'
-import TodoImg from '../assets/projects/todo-app-img.png'
+// import CartImg from '../assets/projects/cart-example-img.png'
+import ShoppingCart from '../assets/projects/shopping-cart.png'
+import TodoImg from '../assets/projects/todoappimg.png'
 import WeatherImg from '../assets/projects/weather-app.png'
-import FlightImg from '../assets/projects/flight-widget.png'
+import OpenWeatherImg from '../assets/projects/open-weather.png'
 import MemoryImg from '../assets/projects/memory-game.png'
-import SnakeImg from '../assets/projects/snake-game.png'
-import PacmanImg from '../assets/projects/pacman-game.png'
+import SnakeImg from '../assets/projects/snake.png'
+import PacmanImg from '../assets/projects/pacman-game.jpg'
 
 export const data = [
     {
         id: 1,
         name: 'Oxigeno',
         image: OxigenImg,
-        description: 'NodeJS - ExpressJS - JS - HTML- CSS - MySQL - Sequelize - React(Dashboard)',
+        description: '',
         github: 'https://github.com/ffran-acosta/oxigeno',
         link: ''
     },
-    // {
-    //     id: 2,
-    //     name: 'Project',
-    //     image: '',
-    //     github: '',
-    //     link: ''
-    // },
     {
         id: 3,
         name: 'Cart Example',
-        image: CartImg,
-        description: 'NodeJS - ExpressJS - JS - EJS- CSS - PostgresSQL - Mercado Pago API',
+        image: ShoppingCart,
+        description: '',
         github: 'https://github.com/ffran-acosta/cart-local-storage',
         link: 'https://cart-client.up.railway.app/products'
     },
@@ -35,25 +29,17 @@ export const data = [
         id: 4,
         name: 'ToDo App',
         image: TodoImg,
-        description: 'NodeJS - ExpressJS - React - PostgresSQL ',
+        description: '',
         github: 'https://github.com/ffran-acosta/ToDo-app',
-        link: ''
+        link: 'https://todo-app-cli.up.railway.app/'
     },
     {
         id: 5,
         name: 'Weather App',
         image: WeatherImg,
-        description: 'NodeJS - ExpressJS - EJS - CSS - JS - Open Weather and Unsplash APIs',
+        description: '',
         github: 'https://github.com/ffran-acosta/weather-app',
         link: 'https://weather-app-23.up.railway.app/weather'
-    },
-    {
-        id: 6,
-        name: 'Flight Widget',
-        image: FlightImg,
-        description: 'NodeJS - ExpressJS - React - MongoDB',
-        github: 'https://github.com/ffran-acosta/flight-widget',
-        link: ''
     },
     {
         id: 7,
@@ -61,7 +47,7 @@ export const data = [
         image: MemoryImg,
         description: '',
         github: 'https://github.com/ffran-acosta/memory-game',
-        link: ''
+        link: 'https://memory-game.up.railway.app/memory-game'
     },
     {
         id: 8,
@@ -69,7 +55,7 @@ export const data = [
         image: SnakeImg,
         description: '',
         github: 'https://github.com/ffran-acosta/snake-game',
-        link: ''
+        link: 'https://snake-game.up.railway.app/snake'
     },
     {
         id: 9,
@@ -77,6 +63,22 @@ export const data = [
         image: PacmanImg,
         description: '',
         github: 'https://github.com/ffran-acosta/pac-man',
-        link: ''
+        link: 'https://pac-man.up.railway.app/pacman'
+    },
+    {
+        id: 10,
+        name: 'React Weather App',
+        image: OpenWeatherImg,
+        description: '',
+        github: 'https://github.com/ffran-acosta/react-openweather-app',
+        link: 'https://weather-portfolio-react.netlify.app/'
+    },
+    {
+        id: 11,
+        name: 'React Shopping Cart',
+        image: ShoppingCart,
+        description: '',
+        github: 'https://github.com/ffran-acosta/ts-shopping-cart',
+        link: 'https://ts-react-shopping-cart.netlify.app/'
     },
 ]
