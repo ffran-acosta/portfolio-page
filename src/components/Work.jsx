@@ -14,7 +14,7 @@ const Work = () => {
                     <p className='py-4'>Check out my recent Work</p>
                 </div>
                 {/* grid container */}
-                <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-4'>
+                <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-4 '>
                 {/* grid items */}
                 {project.map((item, index) => (
                     <div

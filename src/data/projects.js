@@ -10,6 +10,30 @@ import PacmanImg from '../assets/projects/pacman-game.jpg'
 
 export const data = [
     {
+        id: 4,
+        name: 'ToDo App',
+        image: TodoImg,
+        description: '',
+        github: 'https://github.com/ffran-acosta/ToDo-app',
+        link: 'https://todo-app-cli.up.railway.app/'
+    },
+    {
+        id: 10,
+        name: 'React Weather App',
+        image: OpenWeatherImg,
+        description: '',
+        github: 'https://github.com/ffran-acosta/react-openweather-app',
+        link: 'https://weather-portfolio-react.netlify.app/'
+    },
+    {
+        id: 11,
+        name: 'React Shopping Cart',
+        image: ShoppingCart,
+        description: '',
+        github: 'https://github.com/ffran-acosta/ts-shopping-cart',
+        link: 'https://ts-react-shopping-cart.netlify.app/'
+    },
+    {
         id: 1,
         name: 'Oxigeno',
         image: OxigenImg,
@@ -24,14 +48,6 @@ export const data = [
         description: '',
         github: 'https://github.com/ffran-acosta/cart-local-storage',
         link: 'https://cart-client.up.railway.app/products'
-    },
-    {
-        id: 4,
-        name: 'ToDo App',
-        image: TodoImg,
-        description: '',
-        github: 'https://github.com/ffran-acosta/ToDo-app',
-        link: 'https://todo-app-cli.up.railway.app/'
     },
     {
         id: 5,
@@ -64,21 +80,5 @@ export const data = [
         description: '',
         github: 'https://github.com/ffran-acosta/pac-man',
         link: 'https://pac-man.up.railway.app/pacman'
-    },
-    {
-        id: 10,
-        name: 'React Weather App',
-        image: OpenWeatherImg,
-        description: '',
-        github: 'https://github.com/ffran-acosta/react-openweather-app',
-        link: 'https://weather-portfolio-react.netlify.app/'
-    },
-    {
-        id: 11,
-        name: 'React Shopping Cart',
-        image: ShoppingCart,
-        description: '',
-        github: 'https://github.com/ffran-acosta/ts-shopping-cart',
-        link: 'https://ts-react-shopping-cart.netlify.app/'
     },
 ]
