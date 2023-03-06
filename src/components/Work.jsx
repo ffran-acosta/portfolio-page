@@ -37,7 +37,7 @@ const Work = () => {
                                     <button className='text-center rounded-lg px-4 py-3 m-2 bg-[#ef913e] font-bold text-lg'>Code</button>
                                 </a>
                             </div>
-                            <div className='flex flex-row justify-between mt-4'>
+                            <div className='flex flex-row justify-around mt-4'>
                                 {item.skills.map(x => (
                                     <div key={x.id}>
                                         <img className='w-10 mx-auto pt-4' src={x.img} alt="JS ICON" />

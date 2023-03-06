@@ -1,7 +1,8 @@
 // PROJECT IMG
 import OxigenImg from '../assets/projects/oxigeno-img.png'
 import ShoppingCart from '../assets/projects/shopping-cart.png'
-import TodoImg from '../assets/projects/todoappimg.png'
+import ShoppingCart2 from '../assets/projects/shopping-cart-2.png'
+import TodoImg from '../assets/projects/ToDoLists.jpg'
 import WeatherImg from '../assets/projects/weather-app.png'
 import OpenWeatherImg from '../assets/projects/open-weather.png'
 import MemoryImg from '../assets/projects/memory-game.png'
@@ -54,11 +55,11 @@ export const data = [
     {
         id: 11,
         name: 'React Shopping Cart',
-        image: ShoppingCart,
+        image: ShoppingCart2,
         description: '',
         github: 'https://github.com/ffran-acosta/ts-shopping-cart',
         link: 'https://ts-react-shopping-cart.netlify.app/',
-        skills: [reactSkill, postgresSkill, typescriptSkill]
+        skills: [reactSkill, typescriptSkill, postgresSkill,]
     },
     {
 
