@@ -4,7 +4,7 @@ import { data } from '../data/projects.js'
 
 const Work = () => {
 
-    const project = data;
+    const project = data
 
     return (
         <div name='work' className='w-full text-white bg-[#112b51]'>
@@ -14,7 +14,7 @@ const Work = () => {
                     <p className='py-4'>Check out my recent Work</p>
                 </div>
                 {/* grid container */}
-                <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-4 '>
+                <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-4 grid-cols-[400px]  justify-center'>
                 {/* grid items */}
                 {project.map((item, index) => (
                     <div
@@ -23,7 +23,7 @@ const Work = () => {
                         style={{ backgroundImage: `url(${item.image})` }} >
 
                         {/* hover effects */}
-                        <div className='opacity-0 group-hover:opacity-100'>
+                        <div className='w-5/6 opacity-0 group-hover:opacity-100'>
                             <span className='flex w-full justify-center text-2xl font-bold text-qhite tracking-wider'>
                                 {item.name}
                             </span>
@@ -37,6 +37,14 @@ const Work = () => {
                                     <button className='text-center rounded-lg px-4 py-3 m-2 bg-[#ef913e] font-bold text-lg'>Code</button>
                                 </a>
                             </div>
+                            <div className='flex flex-row justify-between mt-4'>
+                                {item.skills.map(x => (
+                                    <div key={x.id}>
+                                        <img className='w-10 mx-auto pt-4' src={x.img} alt="JS ICON" />
+                                    </div>
+                                ))}
+                            </div>
+    
                         </div>
                     </div>
                 ))}
