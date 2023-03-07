@@ -20,6 +20,7 @@ import Postgres from '../assets/skills/postgres.png'
 import TypeScript from '../assets/skills/typescript.png'
 import Tailwind from '../assets/skills/tailwind.png'
 
+//skills 
 const nodeSkill = { id: 1, img: Node }
 const jsSkill = { id: 2, img: JavaScript }
 const reactSkill = { id: 3, img: ReactImg }
@@ -68,7 +69,7 @@ export const data = [
         image: OxigenImg,
         description: '',
         github: 'https://github.com/ffran-acosta/oxigeno',
-        link: '',
+        link: 'https://cooming-soon.up.railway.app/',
         skills: [nodeSkill, expressjsSkill, html5Skill, cssSkill, jsSkill, mysqlSkill,reactSkill]
     },
     {
