@@ -39,7 +39,7 @@ const Navbar = () => {
           </Link>
         </li>
         <li className='lg:hidden'>
-          <a className='hover:text-[#ef913e] duration-300' href={process.env.REACT_APP_CVURL || `http://localhost:3000/CV-FRANCO-ACOSTA.pdf`} download='CV-FRANCO-ACOSTA.pdf'>
+          <a className='hover:text-[#ef913e] duration-300' href={process.env.REACT_APP_CVURL} download='CV-FRANCO-ACOSTA.pdf'>
             Resume
           </a>
         </li>
