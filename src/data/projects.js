@@ -69,7 +69,7 @@ export const data = [
         image: OxigenImg,
         description: '',
         github: 'https://github.com/ffran-acosta/oxigeno',
-        link: 'https://cooming-soon.up.railway.app/',
+        link: 'https://coming-soon-23.netlify.app/',
         skills: [nodeSkill, expressjsSkill, html5Skill, cssSkill, jsSkill, mysqlSkill,reactSkill]
     },
     {
